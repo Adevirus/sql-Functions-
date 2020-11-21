@@ -1,0 +1,37 @@
+show databases;
+
+use course_management_system;
+
+SHOW TABLES;
+
+SELECT * FROM RESULT;
+
+-- Count function
+SELECT COUNT(*) FROM course;
+
+-- GROUP_CONTAT
+SELECT group_concat(COURSE_ID) FROM COURSE;
+
+-- MAX
+SELECT MAX(COURSE_ID) FROM COURSE;
+
+-- SUM
+SELECT SUM(SCORE) FROM RESULT;
+
+-- MIN
+SELECT MIN(SCORE) FROM RESULT;
+
+-- ABS
+SELECT ABS(-35);
+
+-- DEGREES
+SELECT DEGREES(PI());
+
+-- MOD
+SELECT MOD(60, 7);
+
+-- POWER
+SELECT POWER(2, 2);
+
+-- SQRT
+SELECT SQRT(16);
